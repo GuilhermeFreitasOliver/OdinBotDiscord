@@ -1,0 +1,31 @@
+{
+  "welcomeChannelId": "ID_DO_CANAL_DE_BOAS_VINDAS",
+  "xpPerMessage": 10,
+  "xpLevelMultiplier": 100,
+  "messageOfTheDayChannelId": "ID_DO_CANAL_PARA_MENSAGEM_DO_DIA",
+  "reactionRoles": [
+    {
+      "messageId": "ID_DA_MENSAGEM",
+      "channelId": "ID_DO_CANAL",
+      "roles": [
+        { "emoji": "👍", "roleId": "ID_DO_CARGO_1" },
+        { "emoji": "🎮", "roleId": "ID_DO_CARGO_2" },
+        { "emoji": "🎵", "roleId": "ID_DO_CARGO_3" }
+      ]
+    }
+  ],
+  "antiFlood": {
+    "enabled": false,
+    "maxMessages": 5,
+    "timeWindow": 5,
+    "muteTime": 300000
+  },
+  "economy": {
+    "enabled": true,
+    "dailyAmount": 100,
+    "shop": [
+      { "name": "Cargo VIP", "price": 1000, "roleId": "ID_DO_CARGO_VIP" },
+      { "name": "Cargo Premium", "price": 5000, "roleId": "ID_DO_CARGO_PREMIUM" }
+    ]
+  }
+}
